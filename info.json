@@ -1,0 +1,9 @@
+{
+    "name": "SmartLamp",
+    "version": "0.1.0",
+    "title": "SmartLamp",
+    "author": "Dan",
+    "factorio_version": "1.1",
+    "dependencies": ["base >= 1.0"],
+    "description": "A programmable lamp that outputs different colors."
+}

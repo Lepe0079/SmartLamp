@@ -1,0 +1,363 @@
+Help for LuaEntity:
+
+Methods:
+add_autopilot_destination(...)
+add_market_item(...)
+begin_crafting(...)
+can_be_destroyed(...)
+can_insert(...)
+can_reach_entity(...)
+can_shoot(...)
+can_wires_reach(...)
+cancel_crafting(...)
+cancel_deconstruction(...)
+cancel_upgrade(...)
+clear_fluid_inside(...)
+clear_gui_arrow(...)
+clear_items_inside(...)
+clear_market_items(...)
+clear_personal_logistic_slot(...)
+clear_request_slot(...)
+clear_selected_entity(...)
+clear_vehicle_logistic_slot(...)
+clone(...)
+connect_linked_belts(...)
+connect_neighbour(...)
+connect_rolling_stock(...)
+copy_settings(...)
+create_build_effect_smoke(...)
+damage(...)
+deplete(...)
+destroy(...)
+die(...)
+disable_flashlight(...)
+disconnect_linked_belts(...)
+disconnect_neighbour(...)
+disconnect_rolling_stock(...)
+enable_flashlight(...)
+fix_rail(...)
+get_beam_source(...)
+get_beam_target(...)
+get_blueprint_entities(...)
+get_burnt_result_inventory(...)
+get_circuit_network(...)
+get_connected_rail(...)
+get_connected_rails(...)
+get_connected_rolling_stock(...)
+get_control_behavior(...)
+get_craftable_count(...)
+get_damage_to_be_taken(...)
+get_driver(...)
+get_filter(...)
+get_fluid_contents(...)
+get_fluid_count(...)
+get_fuel_inventory(...)
+get_health_ratio(...)
+get_heat_setting(...)
+get_infinity_container_filter(...)
+get_infinity_pipe_filter(...)
+get_inventory(...)
+get_item_count(...)
+get_logistic_point(...)
+get_main_inventory(...)
+get_market_items(...)
+get_max_transport_line_index(...)
+get_merged_signal(...)
+get_merged_signals(...)
+get_module_inventory(...)
+get_or_create_control_behavior(...)
+get_output_inventory(...)
+get_passenger(...)
+get_personal_logistic_slot(...)
+get_radius(...)
+get_rail_segment_end(...)
+get_rail_segment_entity(...)
+get_rail_segment_length(...)
+get_rail_segment_overlaps(...)
+get_recipe(...)
+get_request_slot(...)
+get_stopped_train(...)
+get_train_stop_trains(...)
+get_transport_line(...)
+get_upgrade_direction(...)
+get_upgrade_target(...)
+get_vehicle_logistic_slot(...)
+ghost_has_flag(...)
+has_command(...)
+has_flag(...)
+has_items_inside(...)
+help(...)
+insert(...)
+insert_fluid(...)
+is_closed(...)
+is_closing(...)
+is_connected_to_electric_network(...)
+is_crafting(...)
+is_cursor_blueprint(...)
+is_flashlight_enabled(...)
+is_opened(...)
+is_opening(...)
+is_player(...)
+is_registered_for_construction(...)
+is_registered_for_deconstruction(...)
+is_registered_for_repair(...)
+is_registered_for_upgrade(...)
+launch_rocket(...)
+mine(...)
+mine_entity(...)
+mine_tile(...)
+open_technology_gui(...)
+order_deconstruction(...)
+order_upgrade(...)
+play_note(...)
+release_from_spawner(...)
+remove_fluid(...)
+remove_item(...)
+remove_market_item(...)
+request_to_close(...)
+request_to_open(...)
+revive(...)
+rotate(...)
+set_beam_source(...)
+set_beam_target(...)
+set_command(...)
+set_driver(...)
+set_filter(...)
+set_gui_arrow(...)
+set_heat_setting(...)
+set_infinity_container_filter(...)
+set_infinity_pipe_filter(...)
+set_passenger(...)
+set_personal_logistic_slot(...)
+set_recipe(...)
+set_request_slot(...)
+set_vehicle_logistic_slot(...)
+silent_revive(...)
+spawn_decorations(...)
+start_fading_out(...)
+supports_backer_name(...)
+teleport(...)
+to_be_deconstructed(...)
+to_be_upgraded(...)
+toggle_equipment_movement_bonus(...)
+update_connections(...)
+update_selected_entity(...)
+
+Values:
+active [RW]
+ai_settings [R]
+alert_parameters [RW]
+allow_dispatching_robots [RW]
+amount [RW]
+armed [R]
+associated_player [RW]
+auto_launch [RW]
+autopilot_destination [RW]
+autopilot_destinations [R]
+backer_name [RW]
+belt_neighbours [R]
+belt_to_ground_type [R]
+bonus_mining_progress [RW]
+bonus_progress [RW]
+bounding_box [R]
+build_distance [R]
+burner [R]
+chain_signal_state [R]
+character_additional_mining_categories [RW]
+character_build_distance_bonus [RW]
+character_corpse_death_cause [RW]
+character_corpse_player_index [RW]
+character_corpse_tick_of_death [RW]
+character_crafting_speed_modifier [RW]
+character_health_bonus [RW]
+character_inventory_slots_bonus [RW]
+character_item_drop_distance_bonus [RW]
+character_item_pickup_distance_bonus [RW]
+character_loot_pickup_distance_bonus [RW]
+character_maximum_following_robot_count_bonus [RW]
+character_mining_progress [R]
+character_mining_speed_modifier [RW]
+character_personal_logistic_requests_enabled [RW]
+character_reach_distance_bonus [RW]
+character_resource_reach_distance_bonus [RW]
+character_running_speed [R]
+character_running_speed_modifier [RW]
+character_trash_slot_count_bonus [RW]
+cheat_mode [RW]
+circuit_connected_entities [R]
+circuit_connection_definitions [R]
+cliff_orientation [R]
+color [RW]
+combat_robot_owner [RW]
+command [R]
+connected_rail [R]
+consumption_bonus [R]
+consumption_modifier [RW]
+corpse_expires [RW]
+corpse_immune_to_entity_placement [RW]
+crafting_progress [RW]
+crafting_queue [R]
+crafting_queue_progress [R]
+crafting_queue_size [R]
+crafting_speed [R]
+cursor_ghost [RW]
+cursor_stack [R]
+damage_dealt [RW]
+destructible [RW]
+direction [RW]
+distraction_command [R]
+driver_is_gunner [RW]
+driving [RW]
+drop_item_distance [R]
+drop_position [RW]
+drop_target [RW]
+effective_speed [R]
+effectivity_modifier [RW]
+effects [R]
+electric_buffer_size [RW]
+electric_drain [R]
+electric_emissions [R]
+electric_input_flow_limit [R]
+electric_network_id [R]
+electric_network_statistics [R]
+electric_output_flow_limit [R]
+enable_logistics_while_moving [RW]
+energy [RW]
+energy_generated_last_tick [R]
+entity_label [RW]
+filter_slot_count [R]
+fluidbox [RW]
+follow_offset [RW]
+follow_target [RW]
+following_robots [R]
+force [RW]
+friction_modifier [RW]
+ghost_localised_description [R]
+ghost_localised_name [R]
+ghost_name [R]
+ghost_prototype [R]
+ghost_type [R]
+ghost_unit_number [R]
+graphics_variation [RW]
+grid [R]
+health [RW]
+held_stack [R]
+held_stack_position [R]
+highlight_box_blink_interval [RW]
+highlight_box_type [RW]
+in_combat [R]
+infinity_container_filters [RW]
+initial_amount [RW]
+inserter_filter_mode [RW]
+inserter_stack_size_override [RW]
+is_entity_with_force [R]
+is_entity_with_health [R]
+is_entity_with_owner [R]
+isluaobject [R]
+item_pickup_distance [R]
+item_requests [RW]
+kills [RW]
+last_user [RW]
+link_id [RW]
+linked_belt_neighbour [R]
+linked_belt_type [RW]
+loader_container [R]
+loader_type [RW]
+localised_description [R]
+localised_name [R]
+logistic_cell [R]
+logistic_network [RW]
+loot_pickup_distance [R]
+minable [RW]
+mining_progress [RW]
+mining_state [RW]
+mining_target [R]
+moving [R]
+name [R]
+neighbour_bonus [R]
+neighbours [R]
+object_name [R]
+opened [RW]
+opened_gui_type [R]
+operable [RW]
+orientation [RW]
+parameters [RW]
+picking_state [RW]
+pickup_position [RW]
+pickup_target [RW]
+player [R]
+pollution_bonus [R]
+position [R]
+power_production [RW]
+power_switch_state [RW]
+power_usage [RW]
+previous_recipe [R]
+productivity_bonus [R]
+products_finished [RW]
+prototype [R]
+proxy_target [R]
+pump_rail_target [R]
+reach_distance [R]
+recipe_locked [RW]
+relative_turret_orientation [RW]
+remove_unfiltered_items [RW]
+render_player [RW]
+render_to_forces [RW]
+repair_state [RW]
+request_from_buffers [RW]
+request_slot_count [R]
+resource_reach_distance [R]
+riding_state [RW]
+rocket_parts [RW]
+rotatable [RW]
+secondary_bounding_box [R]
+secondary_selection_box [R]
+selected [RW]
+selected_gun_index [RW]
+selection_box [R]
+shooting_state [RW]
+shooting_target [RW]
+signal_state [R]
+spawner [R]
+speed [RW]
+speed_bonus [R]
+splitter_filter [RW]
+splitter_input_priority [RW]
+splitter_output_priority [RW]
+stack [R]
+status [R]
+sticked_to [R]
+stickers [R]
+storage_filter [RW]
+supports_direction [R]
+surface [R]
+tags [RW]
+temperature [RW]
+text [RW]
+tick_of_last_attack [RW]
+tick_of_last_damage [RW]
+time_to_live [RW]
+time_to_next_effect [RW]
+timeout [RW]
+to_be_looted [RW]
+torso_orientation [RW]
+train [R]
+trains_count [R]
+trains_in_block [R]
+trains_limit [RW]
+tree_color_index [RW]
+tree_color_index_max [R]
+tree_gray_stage_index [RW]
+tree_gray_stage_index_max [R]
+tree_stage_index [RW]
+tree_stage_index_max [R]
+type [R]
+unit_group [R]
+unit_number [R]
+units [R]
+valid [R]
+vehicle [R]
+vehicle_automatic_targeting_parameters [RW]
+vehicle_logistic_requests_enabled [RW]
+walking_state [RW]
+
